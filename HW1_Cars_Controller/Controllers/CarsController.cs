@@ -6,7 +6,7 @@ namespace HW1_Cars_Controller.Controllers
     [Route("[controller]")]
     public class CarsController : ControllerBase
     {
-        private CarsService CarsList = new CarsService();
+        private Cars CarsList = new Cars();
 
         private readonly ILogger<CarsController> _logger;
 
@@ -16,11 +16,11 @@ namespace HW1_Cars_Controller.Controllers
         }
 
         [HttpGet(Name = "GetCarsList")]
-        public IEnumerable<Vehicle> Get()
+        public IEnumerable<Car> Get()
         {
-            var carList = from Vehicle in CarsList.cars.ToList()
-                          orderby Vehicle.make
-                          select Vehicle;
+            var carList = from car in CarsList.cars.ToList()
+                          orderby car.make
+                          select car;
 
             return carList.AsEnumerable();
 

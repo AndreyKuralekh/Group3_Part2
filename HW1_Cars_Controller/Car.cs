@@ -21,20 +21,12 @@
             this.model = model;
             this.year = year;
         }
-        public Car(string make, string model, int year, int speed) : this(make, "NoName", year, 0, "gaz")
+        public Car(string make, string model, int year, int speed)
         {
             this.make = make;
             this.model = model;
             this.year = year;
             this.speed = speed;
-        }
-        public Car(string make, string model, int year, int speed, string engine)
-        {
-            this.make = make;
-            this.model = model;
-            this.year = year;
-            this.speed = speed;
-            this.engine = engine;
         }
     }
 }
