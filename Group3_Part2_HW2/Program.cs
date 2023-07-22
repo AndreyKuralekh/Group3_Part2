@@ -12,7 +12,9 @@ namespace Group3_Part2_HW2
             //builder.Services.AddRazorPages();
 
             var app = builder.Build();
-            app.UseMiddleware<MiddlewareGetCars>();
+            app.UseMiddleware<MiddlewareGetCarName>();
+            app.UseMiddleware<MiddlewareGetCarEngine>();
+            app.UseMiddleware<MiddlewareGetCarAge>();
 
             // Configure the HTTP request pipeline.
             /*

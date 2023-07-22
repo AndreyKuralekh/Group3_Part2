@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 namespace HW2_Cars_Controller
 {
     // You may need to install the Microsoft.AspNetCore.Http.Abstractions package into your project
-    public class MiddlewareGetCars
+    public class MiddlewareGetCarAge
     {
         private readonly RequestDelegate requestDelegate;
 
-        public MiddlewareGetCars(RequestDelegate requestDelegate)
+        public MiddlewareGetCarAge(RequestDelegate requestDelegate)
         {
             this.requestDelegate = requestDelegate;
         }
@@ -29,45 +29,6 @@ namespace HW2_Cars_Controller
             var path = request.Path;
             var parameters = request.QueryString.ToString();
 
-            if (path == "/GetCarName" && parameters.Contains("?name="))
-            {
-                //GetCarName?name=Ford
-
-                parameters = parameters.Replace("?name=", "");
-                var fords = CarsList.GetCarName(parameters);
-                await fords;
-                var fordQuery = fords.Result;
-
-                response.Headers.ContentLanguage = "en-US";
-                response.Headers.ContentType = "text/html";
-                var sb = new StringBuilder();
-                foreach (var h in fordQuery)
-                {
-                    sb.Append($"<p>Make:{h.make}, Model:{h.model}, Speed:{h.speed}, Engine:{h.engine}, Year: {h.year}</p>");
-                    sb.AppendLine();
-                }
-                await response.WriteAsync(sb.ToString());
-            }
-            else 
-            if (path == "/GetCarEngine" && parameters.Contains("?engine="))
-            {
-                //GetCarEngine?engine=dizel
-
-                parameters = parameters.Replace("?engine=", "");
-                var engine = CarsList.GetCarEngine(parameters);
-                await engine;
-                var engineQuery = engine.Result;
-
-                response.Headers.ContentLanguage = "en-US";
-                response.Headers.ContentType = "text/html";
-                var sb = new StringBuilder();
-                foreach (var h in engineQuery)
-                {
-                    sb.Append($"<p>Make:{h.make}, Model:{h.model}, Speed:{h.speed}, Engine:{h.engine}, Year: {h.year}</p>");
-                    sb.AppendLine();
-                }
-                await response.WriteAsync(sb.ToString());
-            } else 
             if (path == "/GetCarAge" && parameters.Contains("?age="))
             {
                 //GetCarAge?age=9
