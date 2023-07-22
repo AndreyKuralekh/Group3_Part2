@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW1_Cars_Controller", "HW1_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Group3_Part2_HW2", "Group3_Part2_HW2\Group3_Part2_HW2.csproj", "{F090AF87-3855-47EC-A57E-443EB1CD1E29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group3_Part2_HW3", "..\Group3_Part2_HW3\ConsoleApp1\Group3_Part2_HW3.csproj", "{F05BD46B-01DC-4D4B-B2FD-440257059384}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05BD46B-01DC-4D4B-B2FD-440257059384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05BD46B-01DC-4D4B-B2FD-440257059384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05BD46B-01DC-4D4B-B2FD-440257059384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05BD46B-01DC-4D4B-B2FD-440257059384}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
