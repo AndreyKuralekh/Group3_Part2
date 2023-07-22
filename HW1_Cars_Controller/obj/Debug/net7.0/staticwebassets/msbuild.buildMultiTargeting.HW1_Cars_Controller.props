@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\HW1_Cars_Controller.props" />
+</Project>
