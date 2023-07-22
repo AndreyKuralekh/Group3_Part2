@@ -8,12 +8,12 @@
         {
             PrintString printString;
             
-            var pr = new Print();
+            IPrint _pr = new Print();
             var initialString = "This is my string!";
 
-            printString  = new PrintString(pr.PrintStr);
-            printString += new PrintString(pr.PrintGreenStr);
-            printString += new PrintString(pr.PrintOrangeStr);
+            printString  = new PrintString(_pr.PrintStr);
+            printString += new PrintString(_pr.PrintGreenStr);
+            printString += new PrintString(_pr.PrintOrangeStr);
 
             printString(initialString);
 
@@ -22,7 +22,7 @@
 
     }
 
-    public class Print
+    public class Print :IPrint
     {
         public void PrintStr(string str)
         {
@@ -40,5 +40,12 @@
             Console.WriteLine($"String: {str}");
             Console.BackgroundColor = ConsoleColor.Black;
         }
+    }
+
+    public interface IPrint
+    {
+        void PrintStr(string str);
+        void PrintGreenStr(string str);
+        void PrintOrangeStr(string str);
     }
 }
