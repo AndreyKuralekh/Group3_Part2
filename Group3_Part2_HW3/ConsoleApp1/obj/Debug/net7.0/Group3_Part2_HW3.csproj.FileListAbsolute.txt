@@ -1,0 +1,15 @@
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\bin\Debug\net7.0\Group3_Part2_HW3.exe
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\bin\Debug\net7.0\Group3_Part2_HW3.deps.json
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\bin\Debug\net7.0\Group3_Part2_HW3.runtimeconfig.json
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\bin\Debug\net7.0\Group3_Part2_HW3.dll
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\bin\Debug\net7.0\Group3_Part2_HW3.pdb
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.csproj.AssemblyReference.cache
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.AssemblyInfoInputs.cache
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.AssemblyInfo.cs
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.csproj.CoreCompileInputs.cache
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.dll
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\refint\Group3_Part2_HW3.dll
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.pdb
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\Group3_Part2_HW3.genruntimeconfig.cache
+D:\MyProjects2022\Group3_Part2\Group3_Part2_HW3\ConsoleApp1\obj\Debug\net7.0\ref\Group3_Part2_HW3.dll
