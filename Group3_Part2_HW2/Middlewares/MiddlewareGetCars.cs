@@ -14,7 +14,6 @@ namespace HW2_Cars_Controller
         {
             this.requestDelegate = requestDelegate;
         }
-
         public async Task InvokeAsync(HttpContext context)
         {
             
@@ -49,6 +48,7 @@ namespace HW2_Cars_Controller
                 }
                 await response.WriteAsync(sb.ToString());
             }
+            else 
             if (path == "/GetCarEngine" && parameters.Contains("?engine="))
             {
                 //GetCarEngine?engine=dizel
@@ -67,7 +67,7 @@ namespace HW2_Cars_Controller
                     sb.AppendLine();
                 }
                 await response.WriteAsync(sb.ToString());
-            }
+            } else 
             if (path == "/GetCarAge" && parameters.Contains("?age="))
             {
                 //GetCarAge?age=9
@@ -88,8 +88,8 @@ namespace HW2_Cars_Controller
                 }
                 await response.WriteAsync(sb.ToString());
             }
-            
-            await requestDelegate.Invoke(context);
+            else 
+                await requestDelegate.Invoke(context);
         }
     }
 
