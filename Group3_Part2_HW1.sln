@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW1_Cars_Controller", "HW1_Cars_Controller\HW1_Cars_Controller.csproj", "{1332DF6F-0647-4704-A050-21D28111E5F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW1_Cars_Controller", "HW1_Cars_Controller\HW1_Cars_Controller.csproj", "{1332DF6F-0647-4704-A050-21D28111E5F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Group3_Part2_HW2", "Group3_Part2_HW2\Group3_Part2_HW2.csproj", "{F090AF87-3855-47EC-A57E-443EB1CD1E29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1332DF6F-0647-4704-A050-21D28111E5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1332DF6F-0647-4704-A050-21D28111E5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1332DF6F-0647-4704-A050-21D28111E5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F090AF87-3855-47EC-A57E-443EB1CD1E29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
