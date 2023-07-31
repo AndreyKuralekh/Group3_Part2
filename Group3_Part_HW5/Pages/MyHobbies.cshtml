@@ -1,0 +1,17 @@
+﻿@page
+@model Group3_Part_HW5.Pages.MyHobbiesModel
+@{
+    Model.OnGet();
+}
+
+<section id="main001">
+    <h1>My hobbies list:</h1>
+    <div>
+        @foreach (var hoba in Model.MyHobbies)
+        {
+            <h4> @hoba.Name </h4>
+            <h4> @hoba.Description </h4>
+            <h4> @hoba.Type </h4>
+        }
+    </div>
+</section>
