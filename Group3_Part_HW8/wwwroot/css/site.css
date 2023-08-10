@@ -19,9 +19,13 @@ html {
 
 table {
     font-size: 32px;
-    font-style:italic;
+    font-style: italic;
+    border-style: hidden;
+    border-collapse: collapse;
 }
-
+footer {
+    background-color: white;
+}
 body {
   margin-bottom: 60px;
 }
